@@ -1,7 +1,7 @@
 Advent Of Code 2021
 ===================
 
-Personal repo for 2021 Advent of Code. 
+Personal repo for [2021 Advent of Code](https://adventofcode.com/2021). 
 
 Solutions are written in Python, with a template inspired by https://realpython.com/python-advent-of-code/ (accessed 4th December 2021).
 
