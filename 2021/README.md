@@ -26,7 +26,7 @@ Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%2
 
 Written using List Comprehensions (and a For loop).
 
-Day 2 - Binary Diagnostic
+Day 3 - Binary Diagnostic
 -------------------------
 Puzzle - https://adventofcode.com/2021/day/3
 
