@@ -1,2 +1,2 @@
-# Advent-Of-Code
+# Advent Of Code
 My solutions for https://adventofcode.com/ 🎅🎅
