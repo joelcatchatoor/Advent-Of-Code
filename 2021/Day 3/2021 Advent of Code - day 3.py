@@ -81,7 +81,7 @@ def solve_part2(diagnostics_np):
 
         else:
             # using the numpy array (not transposed - rows and columns in their original orientation)
-            # finds the number of 1 bits at horizontal position chat_count for all rows
+            # finds the number of 1 bits at horizontal position char_count for all rows
             len_one = len(diagnostics_np[diagnostics_np[:,char_count] == 1])
         
             # if the number of 1 bits is greater or equal to half the total length of the numpy array
