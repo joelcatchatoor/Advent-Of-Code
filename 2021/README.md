@@ -40,7 +40,7 @@ Puzzle - https://adventofcode.com/2021/day/4
 
 Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%204
 
-Witten using a 3D NumPy array. 
+Written using a 3D NumPy array. 
 
 Day 5 - Hydrothermal Venture
 ----------------------------
