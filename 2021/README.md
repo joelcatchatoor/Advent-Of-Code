@@ -32,4 +32,20 @@ Puzzle - https://adventofcode.com/2021/day/3
 
 Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%203
 
-Written using Numpy and recursion.
+Written using NumPy and recursion.
+
+Day 4 - Giant Squid
+-------------------
+Puzzle - https://adventofcode.com/2021/day/4
+
+Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%204
+
+Witten using a 3D NumPy array. 
+
+Day 5 - Hydrothermal Venture
+----------------------------
+Puzzle - https://adventofcode.com/2021/day/5
+
+Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%205
+
+Written using 2 lines of code to solve both parts of the puzzle (plus several supporting functions!)
