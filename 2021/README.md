@@ -49,3 +49,35 @@ Puzzle - https://adventofcode.com/2021/day/5
 Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%205
 
 Written using 2 lines of code to solve both parts of the puzzle (plus several supporting functions!)
+
+Day 6 - Lanternfish
+-------------------
+Puzzle - https://adventofcode.com/2021/day/6
+
+Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%206
+
+Written using a function, a dictionary and a list.
+
+Day 7 - The Treachery of Whales
+-------------------------------
+Puzzle - https://adventofcode.com/2021/day/7
+
+Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%207
+
+Written using Quickselect selection algorithm, median and mean.
+
+Day 8 - Seven Segment Search
+----------------------------
+Puzzle - https://adventofcode.com/2021/day/8
+
+Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%208
+
+Written using a lot of boolean logic.
+
+Day 9 - Smoke Basin
+-------------------
+Puzzle - https://adventofcode.com/2021/day/9
+
+Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%209
+
+Written using Flood Fill algorithm, NumPy and a boolean array.
