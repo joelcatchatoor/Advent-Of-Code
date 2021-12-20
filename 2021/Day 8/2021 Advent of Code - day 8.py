@@ -89,7 +89,7 @@ def solve_part2(data):
                 # remove the string pattern for 3 to make the following deductions easier
                 length_five.remove(num)
 
-        # find '9' - length of 6 and matches all four characters in digits['4'] (in other words, the segments comprising 4 are all in 6. this is unique among the digits that use six segments).
+        # find '9' - length of 6 and matches all four characters in digits['4'] (in other words, the segments comprising 4 are all in 9. this is unique among the digits that use six segments).
         for num in length_six:
             match_list = [char in char_four for char in num]
 
