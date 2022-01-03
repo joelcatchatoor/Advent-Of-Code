@@ -81,3 +81,27 @@ Puzzle - https://adventofcode.com/2021/day/9
 Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%209
 
 Written using Flood Fill algorithm, NumPy and a boolean array.
+
+Day 10 - Syntax Scoring
+=======================
+Puzzle - https://adventofcode.com/2021/day/10
+
+Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%2010
+
+Written using .pop(), .append() and .reverse().
+
+Day 11 - Dumbo Octopus
+======================
+Puzzle - https://adventofcode.com/2021/day/11
+
+Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%2011
+
+Written using NumPy and recursion, similarities to Day 9 Flood Fill solution.
+
+Day 12 - Passage Pathing
+========================
+Puzzle - https://adventofcode.com/2021/day/12
+
+Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%2012
+
+Written using iterative Depth-First Search algorithm with a stack.
