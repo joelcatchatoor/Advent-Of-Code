@@ -43,11 +43,7 @@ def find_paths(adj_list, lower_twice=False):
     # list of lists, storing all paths from 'start' to 'end'.
     paths = []  
     # stack to store paths that still need to be considered and acted on.
-    stack_paths = [] 
-
-    # populate the stack with initial options
-    for adj in adj_list['start']:
-        stack_paths.append(['start', adj])
+    stack_paths = [['start']] 
     
     # loop through stack_paths until all options are exhausted (stack_paths is 0, i.e. False)        
     while stack_paths:
