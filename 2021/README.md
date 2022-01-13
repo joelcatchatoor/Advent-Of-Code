@@ -16,7 +16,7 @@ Puzzle - https://adventofcode.com/2021/day/1
 
 Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%201
 
-Written using Enumerate.
+Refactored with a single function to solve both parts 1 and 2.
 
 Day 2 - Dive!
 ------------
