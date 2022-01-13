@@ -6,48 +6,24 @@ def parse(input_file):
 
     # convert contents to list of strings (splitlines), then to list of integers
     return [int(x) for x in contents.splitlines()]
-    
-def solve_part1(depths):
-    """Solution to part 1. 
-    Returns the count of depth increases from n-1 to n.
-    Takes a list of integers as input"""
-    # create counter
+
+def compare(depths, gap):
+    """Returns a count of depth increases in depths from (n - gap) to n."""
     count = 0
 
-    # loop through depths list, comparing n-1 to n to count the number of depth increases 
-    for index, depth in enumerate(depths):
-        # start the comparison from the second position (1) in the list
-        if index > 0:
-            # see if n is greater than n-1
-            if depths[index] > depths[index - 1]:
-                count += 1
-    
-    return count
-
-def solve_part2(depths):
-    """Solution to part 2. 
-    Returns the count of depth increases between two three-measurement windows.
-    Takes a list of integers as input"""
-    count = 0
-
-    for index, depth in enumerate(depths):
-        # start the comparison from the fourth position (3) in the list
-        if index > 2:
-            # sum the two three-measurement sliding windows
-            sum1 = depths[index-1] + depths[index-2] + depths[index-3]
-            sum2 = depths[index] + depths[index-1] + depths[index-2]
-
-            # see if the second three-measurement window is greater than the first.
-            if sum2 > sum1:
-                count += 1
+    for index in range(gap, len(depths)):
+        if depths[index] > depths[index - gap]:
+            count += 1
     
     return count
 
 def solve(input_file):
-    """Solve the two-part puzzle for the input provided"""
+    """Solve the two-part puzzle for the input provided."""
     data = parse(input_file)
 
-    return solve_part1(data), solve_part2(data)
+    """part 2 note: depths[index-1] and depths[index-2] occur in both three-measurement sliding windows, 
+    so only need to compare depths[index] with depths[index - 3]."""
+    return compare(data, 1), compare(data, 3)
 
 if __name__ == "__main__":
     # set the input file path (assume the input file is in the same directory)
