@@ -115,7 +115,7 @@ Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%2
 Written using pytesseract, PIL and NumPy - Optical Character Recognition, image pre-processing and NumPy array transformation
 
 Day 14 - Extended Polymerization
-================================
+--------------------------------
 Puzzle - https://adventofcode.com/2021/day/14
 
 Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%2014
