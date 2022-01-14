@@ -113,3 +113,11 @@ Puzzle - https://adventofcode.com/2021/day/13
 Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%2013
 
 Written using pytesseract, PIL and NumPy - Optical Character Recognition, image pre-processing and NumPy array transformation
+
+Day 14 - Extended Polymerization
+================================
+Puzzle - https://adventofcode.com/2021/day/14
+
+Solution - https://github.com/joelcatchatoor/Advent-Of-Code/tree/main/2021/Day%2014
+
+Written using Counter and dictionaries. Similarities to Day 6 counting solution. 
