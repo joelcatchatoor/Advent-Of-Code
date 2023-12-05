@@ -21,7 +21,7 @@ The script can address both parts of this two-part challenge:
 
 ### Note
 
-To cater to edge cases like 'oneight' being 18, the script employs two `re.search` operations per line — one in the original direction and one in reverse — ensuring the accurate identification of digits.
+To cater to edge cases like 'oneight' being 18, the script employs two `re.search` operations per line — one with the line (a string) in its original direction and one in reverse — ensuring the accurate identification of digits.
 
 ## Usage
 
